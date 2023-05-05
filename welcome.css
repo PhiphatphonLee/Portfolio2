@@ -1,0 +1,9 @@
+body {
+    background-image: url(./img/night1.webp);
+    background-size: cover;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
