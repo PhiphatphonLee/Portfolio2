@@ -56,11 +56,18 @@ main {
 
 .option {
     width: 500px;
-    height: 600px;
+    height: 700px;
     margin: 0 50px;
-    background-color: aqua;
+    background-color: rgba(82, 170, 185, 0.432);
     text-align: center;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.option:hover {
+    background-color: rgba(82, 170, 185, 1);
 }
 
 .option p {
