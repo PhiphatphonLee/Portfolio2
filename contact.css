@@ -29,6 +29,7 @@ nav ul li {
     float: right;
     padding: 0 30px;
     font-weight: 600;
+    font-size: 20px;
 }
 
 #contact{
@@ -67,7 +68,7 @@ main {
 }
 
 .option:hover {
-    background-color: rgba(82, 170, 185, 1);
+    background-color: rgb(151, 208, 255);
 }
 
 .option p {
