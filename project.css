@@ -40,3 +40,17 @@ nav ul li {
 nav li a:hover {
     color: white;
 }
+
+.container {
+    background-color: rgba(156, 211, 224, 0.3);
+    width: 100%;
+    height: 843px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;      
+}
