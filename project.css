@@ -102,11 +102,11 @@ nav li a:hover {
 #obtion p{
     color: transparent;
     transition: 0.5s;
-    transform: translate(80%);
+    transform: translate(0px);
+    background-color: WHITE;
 }
 
 #obtion p:hover{
     color: black;
-    transform: translate(-80%);
-
+    transform: translate(0px, 50px);
 }
