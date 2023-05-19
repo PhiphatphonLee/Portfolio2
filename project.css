@@ -5,6 +5,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 a {
@@ -42,13 +43,13 @@ nav li a:hover {
 }
 
 .container1 {
-    background-color: rgba(156, 211, 224, 0.3);
+    background-color: transparent;
     width: 800px;
-    height: 1900px;
+    height: 1925px;
     margin: 0;
     padding: 0 0;
     position: absolute;
-    bottom: -56.5%;
+    bottom: -520px;
     left: 29%;
     display: flex;
     flex-direction: column;
