@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0 0;
+}
+
+header {
+    height: 500px;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    background-image: url(https://wallpapershome.com/images/wallpapers/dog-2560x1440-5k-4k-wallpaper-puppy-black-underwater-funny-animal-pet-1533.jpg);
+    background-size: cover;
+    background-position: 0 20%;
+    margin: 0 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+nav ul {
+    background-color: rgb(0, 170, 255);
+    height: 80px;
+    margin: 0px 0px;
+    padding-left: 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    background-color: aqua;
+    padding: 15px 193.5px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(3, 164, 175);
+}
+
+main {
+    /* background-color: rgb(243, 243, 243); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+main p {
+    font-size: 30px;
+}
+
+main li {
+    font-size: 30px;
+}
+
+section {
+    width: 80%;
+    background-color: none;
+    margin: 50px 0;
+}
+
+section img {
+    width: 400px;
+    float: right;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0;
+    background-color: rgb(132, 221, 221);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

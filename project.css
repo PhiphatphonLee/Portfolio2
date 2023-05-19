@@ -58,15 +58,16 @@ nav li a:hover {
 }
 
 .projectObtion {
-    background-color: aqua;
+    background-color: transparent;
     width: 770px;
     height: 600px;
     margin: 180px 0px;
-    border: 2px solid black;
+    border-radius: 20px;
     flex-shrink: 0;
     word-wrap: break-word;
     transform: rotate(90deg);
     translate: 0 0%;
+    text-align: center;
 }
 
 .blankSpace {
@@ -86,12 +87,12 @@ nav li a:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(245, 245, 245);
+    background: transparent;
     border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(79, 242, 248);
+    background: rgb(71, 197, 247);
     border-radius: 50px;
 }
 
@@ -99,14 +100,33 @@ nav li a:hover {
     background: rgb(140, 248, 252);
 }    
 
-#obtion p{
-    color: transparent;
-    transition: 0.5s;
-    transform: translate(0px);
-    background-color: WHITE;
+.projectObtion .githubIcon {
+    width: 50px;
 }
 
-#obtion p:hover{
-    color: black;
-    transform: translate(0px, 50px);
+.projectObtion h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(77, 77, 77);
 }
+
+.projectObtion p{
+    font-size: 20px;
+    font-weight: 900;
+    height: 400px;
+    color: transparent;
+    transition: 0.5s;
+    transform: translate(0px, -350px);
+    background-color: transparent;
+}
+
+.projectObtion p:hover{
+    color: rgb(77, 77, 77);
+    transform: translate(0px, 20px);
+}
+
+.projectObtion img {
+    width: 700px;
+    border-radius: 50px;
+}
+
