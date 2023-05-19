@@ -116,13 +116,13 @@ nav li a:hover {
     height: 400px;
     color: transparent;
     transition: 0.5s;
-    transform: translate(0px, -350px);
+    transform: translate(0px, -370px);
     background-color: transparent;
 }
 
 .projectObtion p:hover{
     color: rgb(77, 77, 77);
-    transform: translate(0px, 20px);
+    padding-top: 360px;
 }
 
 .projectObtion img {
